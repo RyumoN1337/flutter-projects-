@@ -1,0 +1,24 @@
+name: srs4_shop
+description: Учебное приложение для СРС 4.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  easy_localization: ^3.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
+    - assets/images/
