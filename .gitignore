@@ -1,0 +1,16 @@
+# Flutter build output and machine-specific files
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+**/.idea/
+**/*.iml
+**/coverage/
+*.log
+.DS_Store
