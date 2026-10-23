@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "270547074863",
+    "firebase_url": "https://lab7-f8f80-default-rtdb.firebaseio.com",
+    "project_id": "lab7-f8f80",
+    "storage_bucket": "lab7-f8f80.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270547074863:android:f0093904111088ce072bda",
+        "android_client_info": {
+          "package_name": "com.example.lab7_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTyoTr-4zLXmG0dSyTTOM2Lvj-HnOKaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
