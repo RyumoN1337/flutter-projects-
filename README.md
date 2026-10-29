@@ -10,9 +10,11 @@
 | СРС 2 | [srs2_layout_basics](srs2_layout_basics) | AppBar, Column, два оформленных блока и Row |
 | Лабораторная 3 | [flutter_lab3](flutter_lab3) | Основные виджеты Flutter |
 | СРС 4 | [srs4_shop](srs4_shop) | Учебное приложение магазина |
+| СРС 8 | [srs8_post_explorer](srs8_post_explorer) | Post Explorer: Retrofit, пагинация, кэш, фильтры, создание постов и 14 тестов |
 
 
 ```
+
 
 
 
