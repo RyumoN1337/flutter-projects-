@@ -1,0 +1,142 @@
+00:00 +0: loading C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart
+00:00 +0: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +1: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +2: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +3: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +4: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +5: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +6: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +7: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +8: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +9: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +10: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +11: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +12: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +13: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +14: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +15: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +16: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +17: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +17: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart: HTTP 500 becomes server error
+DioException [bad response]: This exception was thrown because the response has a status code of 500 and RequestOptions.validateStatus was configured to throw for this status code.
+The status code of 500 has the following meaning: "Server error - the server failed to fulfil an apparently valid request"
+Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:598:7)
+<asynchronous suspension>
+#1      _PostApi.posts (package:post_explorer/data/remote/post_api.g.dart:40:21)
+<asynchronous suspension>
+#2      PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:16:14)
+<asynchronous suspension>
+#3      Throws._matchFuture (package:matcher/src/expect/throws_matcher.dart:103:19)
+<asynchronous suspension>
+#4      _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:153:17)
+<asynchronous suspension>
+#5      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+#6      expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:508:19)
+<asynchronous suspension>
+#7      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart:83:5)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#9      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#10     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +18: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +18: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart: Malformed required field becomes JSON error
+CheckedFromJsonException
+Could not create `Post`.
+There is a problem with "userId".
+type 'Null' is not a subtype of type 'num' in type cast
+#0      $checkedConvert (package:json_annotation/src/checked_helpers.dart:91:5)
+#1      $checkedCreate.checkedConvert (package:json_annotation/src/checked_helpers.dart:28:9)
+#2      _$PostFromJson.<anonymous closure> (package:post_explorer/data/models/models.g.dart:13:32)
+#3      $checkedCreate.<anonymous closure> (package:json_annotation/src/checked_helpers.dart:33:22)
+#4      $checkedNew (package:json_annotation/src/checked_helpers.dart:51:23)
+#5      $checkedCreate (package:json_annotation/src/checked_helpers.dart:30:10)
+#6      _$PostFromJson (package:post_explorer/data/models/models.g.dart:10:5)
+#7      new Post.fromJson (package:post_explorer/data/models/models.dart:18:55)
+#8      _PostApi.posts.<anonymous closure> (package:post_explorer/data/remote/post_api.g.dart:44:36)
+#9      MappedListIterable.elementAt (dart:_internal/iterable.dart:443:31)
+#10     ListIterator.moveNext (dart:_internal/iterable.dart:372:26)
+#11     new _GrowableList._ofEfficientLengthIterable (dart:core-patch/growable_array.dart:194:27)
+#12     new _GrowableList.of (dart:core-patch/growable_array.dart:154:28)
+#13     new List.of (dart:core-patch/array_patch.dart:39:18)
+#14     ListIterable.toList (dart:_internal/iterable.dart:224:7)
+#15     _PostApi.posts (package:post_explorer/data/remote/post_api.g.dart:45:12)
+<asynchronous suspension>
+#16     PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:16:14)
+<asynchronous suspension>
+#17     Throws._matchFuture (package:matcher/src/expect/throws_matcher.dart:103:19)
+<asynchronous suspension>
+#18     _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:153:17)
+<asynchronous suspension>
+#19     StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+#20     expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:508:19)
+<asynchronous suspension>
+#21     main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart:98:5)
+<asynchronous suspension>
+#22     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#23     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#24     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +19: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:00 +20: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +21: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +22: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +23: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +23: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart: Offline refresh keeps persisted cache
+DioException [bad response]: This exception was thrown because the response has a status code of 503 and RequestOptions.validateStatus was configured to throw for this status code.
+The status code of 503 has the following meaning: "Server error - the server failed to fulfil an apparently valid request"
+Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:598:7)
+<asynchronous suspension>
+#1      _PostApi.posts (package:post_explorer/data/remote/post_api.g.dart:40:21)
+<asynchronous suspension>
+#2      PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:16:14)
+<asynchronous suspension>
+#3      FeedState.refresh (package:post_explorer/presentation/state/feed_state.dart:82:22)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart:168:5)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:01 +24: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +25: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +25: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart: Invalid form data never reaches POST
+Проверьте длину полей и выберите автора.
+#0      PostRepository.create.<anonymous closure> (package:post_explorer/data/repositories/post_repository.dart:94:7)
+#1      PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:16:26)
+#2      PostRepository.create (package:post_explorer/data/repositories/post_repository.dart:88:65)
+#3      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/srs8_regression_test.dart:192:12)
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:01 +26: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +27: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Main screen has title, search, author filter and action buttons
+00:01 +28: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Search filters posts and Reset clears field and restores results
+00:02 +29: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Sort button changes visible order
+00:02 +30: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Unknown search shows empty state
+00:02 +31: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Post tap opens real detail screen and Back returns to feed
+00:03 +32: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Create navigation and empty form validation prevent request
+00:03 +33: C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/srs9_post_explorer/test/post_screens_test.dart: Filled form sends once, disables button and displays server response
+00:04 +34: All tests passed!

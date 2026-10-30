@@ -1,0 +1,1 @@
+{"version":"0.2.0","configurations":[{"name":"Post Explorer Android","request":"launch","type":"dart","deviceId":"emulator-5554"},{"name":"Post Explorer Web","request":"launch","type":"dart","deviceId":"chrome"}]}

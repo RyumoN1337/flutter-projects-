@@ -1,0 +1,118 @@
+00:00 +0: loading C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/post_explorer/test/widget_test.dart
+00:00 +0: JSON -> Post
+00:00 +1: Post -> JSON
+00:00 +2: Nested nullable User address
+00:00 +3: Repository loads posts through generated Retrofit
+00:00 +4: HTTP 500 becomes server error
+DioException [bad response]: This exception was thrown because the response has a status code of 500 and RequestOptions.validateStatus was configured to throw for this status code.
+The status code of 500 has the following meaning: "Server error - the server failed to fulfil an apparently valid request"
+Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:598:7)
+<asynchronous suspension>
+#1      _PostApi.posts (package:post_explorer/data/remote/post_api.g.dart:40:21)
+<asynchronous suspension>
+#2      PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:15:14)
+<asynchronous suspension>
+#3      Throws._matchFuture (package:matcher/src/expect/throws_matcher.dart:103:19)
+<asynchronous suspension>
+#4      _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:153:17)
+<asynchronous suspension>
+#5      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+#6      expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:508:19)
+<asynchronous suspension>
+#7      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/post_explorer/test/widget_test.dart:83:5)
+<asynchronous suspension>
+#8      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#9      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#10     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +5: Malformed required field becomes JSON error
+CheckedFromJsonException
+Could not create `Post`.
+There is a problem with "userId".
+type 'Null' is not a subtype of type 'num' in type cast
+#0      $checkedConvert (package:json_annotation/src/checked_helpers.dart:91:5)
+#1      $checkedCreate.checkedConvert (package:json_annotation/src/checked_helpers.dart:28:9)
+#2      _$PostFromJson.<anonymous closure> (package:post_explorer/data/models/models.g.dart:13:32)
+#3      $checkedCreate.<anonymous closure> (package:json_annotation/src/checked_helpers.dart:33:22)
+#4      $checkedNew (package:json_annotation/src/checked_helpers.dart:51:23)
+#5      $checkedCreate (package:json_annotation/src/checked_helpers.dart:30:10)
+#6      _$PostFromJson (package:post_explorer/data/models/models.g.dart:10:5)
+#7      new Post.fromJson (package:post_explorer/data/models/models.dart:18:55)
+#8      _PostApi.posts.<anonymous closure> (package:post_explorer/data/remote/post_api.g.dart:44:36)
+#9      MappedListIterable.elementAt (dart:_internal/iterable.dart:443:31)
+#10     ListIterator.moveNext (dart:_internal/iterable.dart:372:26)
+#11     new _GrowableList._ofEfficientLengthIterable (dart:core-patch/growable_array.dart:194:27)
+#12     new _GrowableList.of (dart:core-patch/growable_array.dart:154:28)
+#13     new List.of (dart:core-patch/array_patch.dart:39:18)
+#14     ListIterable.toList (dart:_internal/iterable.dart:224:7)
+#15     _PostApi.posts (package:post_explorer/data/remote/post_api.g.dart:45:12)
+<asynchronous suspension>
+#16     PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:15:14)
+<asynchronous suspension>
+#17     Throws._matchFuture (package:matcher/src/expect/throws_matcher.dart:103:19)
+<asynchronous suspension>
+#18     _expect.<anonymous closure> (package:matcher/src/expect/expect.dart:153:17)
+<asynchronous suspension>
+#19     StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+#20     expectLater.<anonymous closure> (package:flutter_test/src/widget_tester.dart:508:19)
+<asynchronous suspension>
+#21     main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/post_explorer/test/widget_test.dart:98:5)
+<asynchronous suspension>
+#22     Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#23     Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#24     Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +6: Title filtering and ID sorting
+00:00 +7: Author filter uses userId endpoint
+00:00 +8: Concurrent next page requests are deduplicated
+00:00 +9: Late old filter response cannot overwrite new results
+00:00 +10: Offline refresh keeps persisted cache
+DioException [bad response]: This exception was thrown because the response has a status code of 503 and RequestOptions.validateStatus was configured to throw for this status code.
+The status code of 503 has the following meaning: "Server error - the server failed to fulfil an apparently valid request"
+Read more about status codes at https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+In order to resolve this exception you typically have either to verify and fix your request code or you have to fix the server code.
+
+#0      DioMixin.fetch (package:dio/src/dio_mixin.dart:598:7)
+<asynchronous suspension>
+#1      _PostApi.posts (package:post_explorer/data/remote/post_api.g.dart:40:21)
+<asynchronous suspension>
+#2      PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:15:14)
+<asynchronous suspension>
+#3      FeedState.refresh (package:post_explorer/presentation/state/feed_state.dart:82:22)
+<asynchronous suspension>
+#4      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/post_explorer/test/widget_test.dart:168:5)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#7      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +11: POST response marked local and persisted
+00:00 +12: Invalid form data never reaches POST
+Проверьте длину полей и выберите автора.
+#0      PostRepository.create.<anonymous closure> (package:post_explorer/data/repositories/post_repository.dart:95:7)
+#1      PostRepository.guard (package:post_explorer/data/repositories/post_repository.dart:15:26)
+#2      PostRepository.create (package:post_explorer/data/repositories/post_repository.dart:87:65)
+#3      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-10-29/new-chat/outputs/post_explorer/test/widget_test.dart:192:12)
+#4      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:25)
+<asynchronous suspension>
+#5      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#6      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+
+00:00 +13: Timeout and connection errors differ
+00:00 +14: All tests passed!

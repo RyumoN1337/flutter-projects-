@@ -11,9 +11,11 @@
 | Лабораторная 3 | [flutter_lab3](flutter_lab3) | Основные виджеты Flutter |
 | СРС 4 | [srs4_shop](srs4_shop) | Учебное приложение магазина |
 | СРС 8 | [srs8_post_explorer](srs8_post_explorer) | Post Explorer: Retrofit, пагинация, кэш, фильтры, создание постов и 14 тестов |
+| СРС 9 | [srs9_post_explorer](srs9_post_explorer) | Собственная и адаптивная иконки, unit/widget-тесты, 34 успешные проверки и Android-запуск |
 
 
 ```
+
 
 
 
