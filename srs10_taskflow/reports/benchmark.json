@@ -1,0 +1,48 @@
+{
+  "users": 1000,
+  "projects": 100,
+  "tasks": 10000,
+  "warmup": 20,
+  "iterations": 200,
+  "query": "SELECT id,title FROM tasks WHERE project_id=? AND deleted_at IS NULL AND status=? AND (title LIKE ? OR description LIKE ?) ORDER BY deadline,id LIMIT 25 OFFSET 0",
+  "parameters": [
+    9,
+    "inProgress",
+    "%Task%",
+    "%Task%"
+  ],
+  "with_indexes": {
+    "median_us": 388,
+    "p95_us": 537,
+    "mean_us": 400.905,
+    "query_plan": [
+      {
+        "id": 8,
+        "parent": 0,
+        "notused": 62,
+        "detail": "SEARCH tasks USING INDEX idx_tasks_project_status (project_id=? AND deleted_at=? AND status=?)"
+      }
+    ]
+  },
+  "without_indexes": {
+    "median_us": 635,
+    "p95_us": 930,
+    "mean_us": 676.975,
+    "query_plan": [
+      {
+        "id": 7,
+        "parent": 0,
+        "notused": 216,
+        "detail": "SCAN tasks"
+      },
+      {
+        "id": 32,
+        "parent": 0,
+        "notused": 0,
+        "detail": "USE TEMP B-TREE FOR ORDER BY"
+      }
+    ]
+  },
+  "median_speedup": 1.6365979381443299,
+  "note": "Measured on local machine through Drift. Includes Dart/SQLite call overhead; timings are environment-dependent. Fixture is separate from production database."
+}

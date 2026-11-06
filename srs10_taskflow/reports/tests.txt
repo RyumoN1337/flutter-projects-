@@ -1,0 +1,141 @@
+00:00 +0: loading C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart
+00:00 +0: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +1: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +2: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +3: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +4: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +5: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +6: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +7: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +8: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +9: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +10: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +11: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +12: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +13: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +14: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +15: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +16: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +17: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +18: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +19: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +20: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +21: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +22: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +23: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +24: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +25: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +26: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +27: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +28: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +29: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +30: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +31: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +32: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +33: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:00 +33: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/repository_test.dart: file database survives reopen including history
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database.
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:taskflow/database/app_database.g.dart:3019:36)
+#4      new AppDatabase (package:taskflow/database/app_database.dart)
+#5      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/repository_test.dart:357:16)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database.
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:taskflow/database/app_database.g.dart:3019:36)
+#4      new AppDatabase (package:taskflow/database/app_database.dart)
+#5      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/repository_test.dart:374:14)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:00 +34: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+00:01 +34: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/repository_test.dart: v1 to v2 migration preserves records and sets medium
+WARNING (drift): It looks like you've created the database class AppDatabase multiple times. When these two databases use the same QueryExecutor, race conditions will occur and might corrupt the database.
+Try to follow the advice at https://drift.simonbinder.eu/faq/#using-the-database or, if you know what you're doing, set driftRuntimeOptions.dontWarnAboutMultipleDatabases = true
+Here is the stacktrace from when the database was opened a second time:
+#0      GeneratedDatabase._handleInstantiated (package:drift/src/runtime/api/db_base.dart:96:30)
+#1      GeneratedDatabase._whenConstructed (package:drift/src/runtime/api/db_base.dart:73:12)
+#2      new GeneratedDatabase (package:drift/src/runtime/api/db_base.dart:64:5)
+#3      new _$AppDatabase (package:taskflow/database/app_database.g.dart:3019:36)
+#4      new AppDatabase (package:taskflow/database/app_database.dart)
+#5      main.<anonymous closure> (file:///C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/repository_test.dart:401:22)
+<asynchronous suspension>
+#6      Declarer.test.<anonymous closure>.<anonymous closure> (package:test_api/src/backend/declarer.dart:253:15)
+<asynchronous suspension>
+#7      Declarer.test.<anonymous closure> (package:test_api/src/backend/declarer.dart:250:11)
+<asynchronous suspension>
+#8      Invoker._waitForOutstandingCallbacks.<anonymous closure> (package:test_api/src/backend/invoker.dart:318:9)
+<asynchronous suspension>
+This warning will only appear on debug builds.
+00:01 +35: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/benchmark_test.dart: benchmark 1000 users, 100 projects, 10000 tasks
+{
+  "users": 1000,
+  "projects": 100,
+  "tasks": 10000,
+  "warmup": 20,
+  "iterations": 200,
+  "query": "SELECT id,title FROM tasks WHERE project_id=? AND deleted_at IS NULL AND status=? AND (title LIKE ? OR description LIKE ?) ORDER BY deadline,id LIMIT 25 OFFSET 0",
+  "parameters": [
+    9,
+    "inProgress",
+    "%Task%",
+    "%Task%"
+  ],
+  "with_indexes": {
+    "median_us": 388,
+    "p95_us": 537,
+    "mean_us": 400.905,
+    "query_plan": [
+      {
+        "id": 8,
+        "parent": 0,
+        "notused": 62,
+        "detail": "SEARCH tasks USING INDEX idx_tasks_project_status (project_id=? AND deleted_at=? AND status=?)"
+      }
+    ]
+  },
+  "without_indexes": {
+    "median_us": 635,
+    "p95_us": 930,
+    "mean_us": 676.975,
+    "query_plan": [
+      {
+        "id": 7,
+        "parent": 0,
+        "notused": 216,
+        "detail": "SCAN tasks"
+      },
+      {
+        "id": 32,
+        "parent": 0,
+        "notused": 0,
+        "detail": "USE TEMP B-TREE FOR ORDER BY"
+      }
+    ]
+  },
+  "median_speedup": 1.6365979381443299,
+  "note": "Measured on local machine through Drift. Includes Dart/SQLite call overhead; timings are environment-dependent. Fixture is separate from production database."
+}
+00:01 +36: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/ui_test.dart: all screens fit width 390.0
+00:02 +37: C:/Users/orion/Documents/Codex/2026-11-06/flutter-dart-visual-studio-code/outputs/taskflow/test/ui_test.dart: all screens fit width 1200.0
+00:03 +38: All tests passed!

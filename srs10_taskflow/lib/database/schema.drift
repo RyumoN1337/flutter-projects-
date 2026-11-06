@@ -1,0 +1,68 @@
+CREATE TABLE users (
+ id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+ name TEXT NOT NULL CHECK(length(trim(name)) > 0),
+ email TEXT NOT NULL COLLATE NOCASE UNIQUE,
+ registered_at INTEGER NOT NULL
+);
+CREATE TABLE projects (
+ id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+ name TEXT NOT NULL CHECK(length(trim(name)) > 0),
+ description TEXT NOT NULL DEFAULT '',
+ created_at INTEGER NOT NULL,
+ completed_at INTEGER,
+ status TEXT NOT NULL DEFAULT 'active' CHECK(status IN ('active','completed','archived'))
+);
+CREATE TABLE project_members (
+ project_id INTEGER NOT NULL REFERENCES projects(id) ON DELETE CASCADE,
+ user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+ role TEXT NOT NULL CHECK(role IN ('Owner','Admin','Member')),
+ PRIMARY KEY(project_id, user_id)
+);
+CREATE TABLE tasks (
+ id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+ title TEXT NOT NULL CHECK(length(trim(title)) > 0),
+ description TEXT NOT NULL DEFAULT '',
+ project_id INTEGER NOT NULL REFERENCES projects(id) ON DELETE CASCADE,
+ assignee_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
+ priority TEXT NOT NULL DEFAULT 'medium' CHECK(priority IN ('low','medium','high','critical')),
+ status TEXT NOT NULL DEFAULT 'todo' CHECK(status IN ('todo','inProgress','done','cancelled')),
+ deadline INTEGER NOT NULL,
+ created_at INTEGER NOT NULL,
+ updated_at INTEGER NOT NULL,
+ deleted_at INTEGER
+);
+CREATE TABLE comments (
+ id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+ task_id INTEGER NOT NULL REFERENCES tasks(id) ON DELETE CASCADE,
+ author_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
+ author_name TEXT NOT NULL,
+ body TEXT NOT NULL CHECK(length(trim(body)) > 0),
+ created_at INTEGER NOT NULL
+);
+CREATE TABLE attachments (
+ id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+ task_id INTEGER NOT NULL REFERENCES tasks(id) ON DELETE CASCADE,
+ name TEXT NOT NULL,
+ local_path TEXT NOT NULL,
+ created_at INTEGER NOT NULL
+);
+CREATE TABLE task_history (
+ id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+ task_id INTEGER NOT NULL REFERENCES tasks(id) ON DELETE CASCADE,
+ old_status TEXT,
+ new_status TEXT NOT NULL,
+ actor_id INTEGER REFERENCES users(id) ON DELETE SET NULL,
+ actor_name TEXT NOT NULL,
+ kind TEXT NOT NULL,
+ old_assignee_id INTEGER,
+ new_assignee_id INTEGER,
+ undone INTEGER NOT NULL DEFAULT 0,
+ created_at INTEGER NOT NULL
+);
+CREATE INDEX idx_tasks_assignee_deadline ON tasks(assignee_id, deadline, deleted_at, status);
+CREATE INDEX idx_tasks_project_status ON tasks(project_id, deleted_at, status, deadline);
+CREATE INDEX idx_tasks_priority ON tasks(deleted_at, priority, deadline);
+CREATE INDEX idx_tasks_created ON tasks(deleted_at, created_at);
+CREATE INDEX idx_comments_task ON comments(task_id);
+CREATE INDEX idx_history_task ON task_history(task_id, id);
+CREATE INDEX idx_attachments_task ON attachments(task_id);
